@@ -1,2 +1,2 @@
 html+css
-имя
+name
