@@ -4,182 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>урок1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>  
-    <header>
-        <img src="./img/logo.svg" alt="logo">
-        <p>BuhOne</p>
+    <header class="header container">
+        <img class="header-img" src="./img/logo.svg" alt="logo">
+        <p class="header-title">BuhOne</p>
         <ul>
             <li>
                 <img src="./img/mobilephone.svg" alt="mobolephone">
-                <a href="tel:+">8 (111) 222-33-44</a>
+                <a class="header-contact-link" href="tel:+">8 (111) 222-33-44</a>
             </li>
             <li>
                 <img src="./img/clock.svg" alt="clock">
-                <span>Пн-Пт 10:00-18:00</span>
+                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
                 <img src="./img/envelope2.svg" alt="envelope2">
-                <a href="mailto:">order@buhone.ru</a>
+                <a class="header-contact-link" href="mailto:">order@buhone.ru</a>
             </li>
             <li>
                 <img src="./img/placeholder.svg" alt="placeholder">
-                <span>Невский пр. 130</span>
+                <span class="header-contact-text">Невский пр. 130</span>
             </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">услуги</a></li>
-                <li><a href="#">кейсы</a></li>
-                <li><a href="#">о компании</a></li>
-                <li><a href="#">контакты</a></li>
+                <li><a class="header-nav-link" href="#">Главная</a></li>
+                <li><a class="header-nav-link" href="#">услуги</a></li>
+                <li><a class="header-nav-link" href="#">кейсы</a></li>
+                <li><a class="header-nav-link" href="#">о компании</a></li>
+                <li><a class="header-nav-link" href="#">контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Бухгалтерские услуги в Санкт-Петербурге</h1>
-            <a href="#">Наша презентация</a>
+        <section class="desc">
+            <div class="container">
+                <h1 class="desc-title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+                <a class="desc-link" href="#">Наша презентация</a>
+            </div>
         </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
-            <ul>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-            </ul>
+        <section class="service">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-sub-title servisce-sub-title">Мы специализируемся</p>
+                <ul class="service-list">
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                    <li class="service-block"><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>О нас</h2>
-            <p>Компания ИвановПром</p>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
-            <ul>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="#">Все кейсы</a>
-                </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="#">Все кейсы</a>
-                </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="#">Все кейсы</a>
-                </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="#">Все кейсы</a>
-                </li>
-            </ul>
+        <section class="presentation container flex">
+            <div class="half-width wrp-paddimg">
+                <h2 class="section-title">О нас</h2>
+                <p class="section-sub-title presentation-about">Компания <span class="section-sub-title-blue">ИвановПром</span></p>
+                <p class="coment">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+            </div> 
+            <div class="half-width">
+                <ul class="presentation-list">
+                    <li class="presentation-block">
+                        <p class="presentation-title">90</p>
+                        <h3 class="presentation-sub-title">Завершено крупных сделок</h3>
+                        <a class="presentation-link" href="#">Все кейсы</a>
+                    </li>
+                    <li class="presentation-block">
+                        <p class="presentation-title">90</p>
+                        <h3 class="presentation-sub-title">Завершено крупных сделок</h3>
+                        <a class="presentation-link" href="#">Все кейсы</a>
+                    </li>
+                    <li class="presentation-block">
+                        <p class="presentation-title">90</p>
+                        <h3 class="presentation-sub-title">Завершено крупных сделок</h3>
+                        <a class="presentation-link" href="#">Все кейсы</a>
+                    </li>
+                    <li class="presentation-block">
+                        <p class="presentation-title">90</p>
+                        <h3 class="presentation-sub-title">Завершено крупных сделок</h3>
+                        <a class="presentation-link" href="#">Все кейсы</a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>Наши клиенты</h2>
-            <p>С нами работают</p>
-            <ul>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-                <il><img src="./img/picture3.png" alt=""></il>
-            </ul>
+        <section class="clients">
+            <div class="container">
+                <h2 class="section-title">Наши клиенты</h2>
+                <p class="section-sub-title ">С нами работают</p>
+                <ul class="clients-list">
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                    <li class="clients-block"><a href="#"><img src="./img/picture3.png" alt="picture3"></a></li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>Отзывы</h2>
-            <p>Ваши благодарности</p>
-            <button type="button">Оставить отзыв</button>
+        <section class="review container">
+            <h2 class="section-title">Отзывы</h2>
+            <p class="section-sub-title">Ваши благодарности</p>
+            <button class="button review-button" type="button">Оставить отзыв</button>
             <ul>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                <li class="review-item">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/Ellipse.png" alt="Ellipse">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                    </blockquote>
+                <li class="review-item display-none">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/Ellipse.png" alt="Ellipse">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                    </blockquote>
+                <li class="review-item display-none">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/Ellipse.png" alt="Ellipse">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-                    </blockquote>
+                <li class="review-item display-none">
+                    <p class="review-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                     <img src="./img/Ellipse.png" alt="Ellipse">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="review-item-author">Екатерина Иванова</p>
+                    <p class="review-item-position">Директор ООО “Раз-два”</p>
                 </li>
             </ul>
             <ul>
-                <li><button type="button">1</button></li>
-                <li><button type="button">2</button></li>
-                <li><button type="button">3</button></li>
-                <li><button type="button">4</button></li>
+                <li><button type="button" class="review-slider-button"></button></li>
+                <li><button type="button" class="review-slider-button"></button></li>
+                <li><button type="button" class="review-slider-button review-slider-button-activ"></button></li>
+                <li><button type="button" class="review-slider-button"></button></li>
             </ul>
-            <button disabled="disabled"><img src="./img/left.svg" alt="">left</button>
-            <button type="button"><img src="./img/right.svg" alt="">right</button>
+            <button class="review-slider-arrow" disabled="disabled"><img src="./img/left.svg" alt="">left</button>
+            <button class="review-slider-arrow review-slider-button-activ" type="button"><img src="./img/right.svg" alt="">right</button>
         </section>
-        <section>
-            <h2>Наши преимущетсва</h2>
-            <p>Мы предлагаем</p>
-            <ul>
-                <il>
-                    <img src="./img/Frame1.svg" alt="Frame1">
-                    <p>Качество</p>
-                </il>
-                <il>
-                    <img src="./img/Frame2.svg" alt="Frame2">
-                    <p>Оперативность</p>
-                </il>
-                <il>
-                    <img src="./img/Frame3.svg" alt="Frame3">
-                    <p>Экспертность</p>
-                </il>
-            </ul>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="section-title">Наши преимущетсва</h2>
+                <p class="section-sub-title advantages-sub-title">Мы предлагаем</p>
+                <ul class="advantages-img">
+                    <il class="advantages-item">
+                        <img class="advantages-panting" src="./img/Frame1.svg" alt="Frame1" width="132" height="126">
+                        <p class="advantages-text">Качество</p>
+                    </il>
+                    <il class="advantages-item">
+                        <img class="advantages-panting" src="./img/Frame2.svg" alt="Frame2" width="132" height="126">
+                        <p class="advantages-text">Оперативность</p>
+                    </il>
+                    <il class="advantages-item">
+                        <img class="advantages-panting" src="./img/Frame3.svg" alt="Frame3" width="132" height="126">
+                        <p class="advantages-text">Экспертность</p>
+                    </il> 
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <h2>Связь с нами</h2>
-            <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-            <ul>
-                <li>
-                    <img src="./img/phone.svg" alt="phone">
-                    <a href="tel:+">+7 (111) 222-33-44</a>
-                </li>
-                <li>
-                    <img src="./img/envelope.svg" alt="envelope">
-                    <a href="mailto:">order@buhone.ru</a>
-                </li> 
-            </ul>
+    <footer class="footer">
+        <div class="footer-background">
+            <div class="container">
+                    <h2 class="footer-contacts-title">Связь с нами</h2>
+                    <p class="footer-contacts-subtitle">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                    <ul>
+                        <li>
+                            <a href="tel:81112223344">
+                                <img src="./img/phone.svg" alt="phone">
+                                <span class="footer-contacts-link" href="tel:+">+7 (111) 222-33-44></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:order@buhone.ru">
+                            <img src="./img/envelope.svg" alt="envelope">
+                            <span class="footer-contacts-link" href="mailto:">order@buhone.ru></span>
+                        </a>
+                        </li> 
+                    </ul>
+                <div>
+                    форма
+                    <button class="button">Отправить сообщение</button>
+                </div>
+            </div>
         </div>
-        <div>
-            форма
-        </div>
-        <div>
-            <p>2019 (с) Все права защищены. БухОне.ру</p>
-            <p>Разработано: BuhOne</p>
+        <div class="footer-dev container">
+            <p class="footer-text">2019 (с) Все права защищены. БухОне.ру</p>
+            <p class="footer-text">Разработано: BuhOne</p>
         </div>
     </footer>
     <div>

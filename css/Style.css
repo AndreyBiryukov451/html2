@@ -1,0 +1,382 @@
+body {
+    color: #000000;
+    font-family: 'lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.container {
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.display-none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.wrp-paddimg {
+    padding: 0 0 0 15px;
+}
+
+.header {
+    padding: 23px 0 31px;
+}
+
+.header-title {
+    color: #005FA3;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.header-contact-text {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header-contact-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.desc {
+    padding: 170px 0;
+    background-color: #191E22;
+    background-image: url(../img/picture1.jpg);
+}
+
+.desc-title {
+    margin: 0 0 131px;
+}
+
+.desc-title,
+.desc-link {
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.desc-link {
+    text-decoration: none;
+    background-color: #005FA3;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 333px;
+    min-height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    background: #EBEBEB;
+    padding: 140px 0;
+}
+
+.section-title {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+    margin: 0 0 40px;
+}
+
+.section-sub-title {
+    color: #333333;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+}
+
+.servisce-sub-title {
+    margin: 0 0 102px;
+}
+
+.section-sub-title-blue {
+    color: #005FA3;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item-link {
+    background-image: url(../img/picture2.png);
+    background-size: cover;
+    text-decoration: none;
+    width: 350px;
+    height: 360px;
+    padding: 45px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+}
+
+.service-block:nth-of-type(n+4) {
+    margin: 30px 0 0;
+}
+
+.service-item-title {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.presentation {
+    padding: 140px 0;
+}
+
+.presentation-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between
+}
+
+.presentation-about {
+    margin: 0 0 60px;
+}
+
+.coment {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 445px;
+}
+
+.presentation-title {
+    color: #000;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 66px;
+    margin: 0 0 30px;
+}
+
+.presentation-sub-title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 0 47px;
+}
+
+.presentation-link {
+    color: #005FA3;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.presentation-block {
+    background-color: #EBEBEB;
+    width: 255px;
+    min-height: 255px;
+    padding: 30px 40px 40px;
+    box-sizing: border-box;
+}
+
+.presentation-block:nth-of-type(n+3) {
+    margin: 30px 0 0;
+}
+
+.review {
+    padding: 174px 0 120px;
+}
+
+.review-item {
+    background-color: #EBEBEB;
+    padding: 45px 95px;
+}
+
+.review-button {
+    width: 270px;
+    min-height: 60px;
+}
+
+.review-slider-button {
+    width: 10px;
+    height: 10px;
+    background-color: #005FA3;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+
+
+.review-slider-arrow {
+    width: 60px;
+    height: 60px;
+    background-color: #005FA3;
+    padding: 0;
+    border: 0;
+    opacity: 0.2;
+}
+
+.review-slider-button-activ {
+    opacity: 1;
+}
+
+.review-item-text {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 0 58px;
+}
+
+.review-item-author {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.review-item-position {
+    color: #4F4F4F; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.button {
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    background-color: #005FA3;
+    border: none;
+}
+
+.clients {
+    background-color: #EBEBEB;
+    padding: 85px 0 92px;
+}
+
+.clients-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-block:nth-of-type(n+5) {
+    margin: 34px 0 0;
+}
+
+.clients-sib-title {
+    padding: 0 0 43px;
+}
+
+.advantages {
+    background-color: #EBEBEB;
+    padding: 102px 0 116px;
+}
+
+.advantages-img {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-panting {
+    margin: 0 0 20px;
+}
+
+.advantages-sub-title {
+    margin: 0 0 27px;
+}
+
+.advantages-item {
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.advantages-text {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer-background {
+    color: #FFF;
+    background-color: #161616;
+    background-image: url(../img/picture3.jpg);
+    padding: 122px 0 140px;
+}
+
+.footer-contacts-title {
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+    margin: 0 0 60px;
+}
+
+.footer-contacts-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 0 75px;
+}
+
+.footer-contacts-link {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.footer-dev {
+    padding: 49px 0 50px;
+}
+
+.footer-text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
